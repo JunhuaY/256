@@ -7,4 +7,6 @@ For the data source, we chose a dataset consisting of news headlines and their c
 
 An ensemble model was implemented, integrating vanilla LSTM with GloVE, encoder transformer, and BERT. The vanilla transformer consists of tokenized embedded input processed through two sequential encoder blocks, each containing multihead attention layers, and a feedforward layer to generate the output. A voting system is employed to select between outputs of these different transformer architectures and best capture sarcasm by leveraging the specific class prediction strengths of each model. For both the vanilla LSTM and encoder transformer, a strict probability threshold was chosen (0.90-0.95) to maximize the precision of positive class predictions, aiming to boost the performance of BERT. The ensemble model achieved 91.9% accuracy, outperforming individual existing generalized models.
 
+Requires glove.twitter.27B.200d.txt to Run. 
+
 
