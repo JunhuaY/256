@@ -1,4 +1,4 @@
-#cse 256: sarcasm detection in news titles with combined language models
+# CSE 256: Sarcasm Detection In News Titles With Combined Language Models
 
 This project tries to detect sarcasm through a large language model combined with simpler, more traditional models.
 
