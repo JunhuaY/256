@@ -1,4 +1,4 @@
-# CSE 256: Sarcasm Detection In News Titles With Combined Language Models
+# CSE 256: Sarcasm Detection in News Titles with Combined Language Models
 This project aims to detect sarcasm through a modern language model combined with simpler, more traditional models.
 
 Sarcasm is a linguistic phenomenon in which the speaker or author states the opposite or a variation of the desired meaning. The detection of sarcasm is a difficult task, as it's rather dependent on subjective understandings. However, it's also a critical NLP application, especially in correctly handling texts expressing opinions. One of the most typical scenarios involves titles of news articles, where sarcasm is frequently used and limited context poses a significant challenge for accurate detection.
